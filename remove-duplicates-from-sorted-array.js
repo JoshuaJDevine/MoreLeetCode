@@ -32,6 +32,7 @@
 }
  */
 
+//4
 function removeDuplicates(nums){
     let pointer = 0;
     let k = 1;
@@ -45,3 +46,24 @@ function removeDuplicates(nums){
     return k;
 }
 
+//5
+/*
+[1,1,2)
+    i = 0
+    pointer = 0
+    k = 1
+
+[1,1,2)
+    i = 1
+    pointer = 0
+    k = 1
+
+[1,2,2)
+    i = 2
+    pointer = 1
+    k = 2
+ */
+
+//6
+//Complexity is space = constant 0(1)
+//Complexity is time = linear O(n)
